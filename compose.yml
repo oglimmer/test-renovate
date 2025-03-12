@@ -1,0 +1,7 @@
+services:
+  nginx:
+    image: nginx:1.26.0
+    ports:
+      - "80:80"
+    volumes:
+      - ./www-root:/usr/share/nginx/html
